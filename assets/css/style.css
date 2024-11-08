@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap);
+
 @import url(menubar.css);
+
 @import url(footer.css);
-@import url(carousel.css);
+
+@import url('Paginas/Home/carousel.css');
+
 @import url(responsive.css);
+
+@import url('Paginas/Contacto/contact_page.css');
 
 
 *{
@@ -46,6 +52,7 @@ p{
 body{
     width: 100%;
 }
+
 
 
 
