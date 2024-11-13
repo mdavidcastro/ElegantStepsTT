@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegan Steps - Productos</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between align-items-center">
+                <!-- Grupo de correo y teléfono -->
+                <div class="d-flex align-items-center">
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@prodart.com">info@elegantsteps.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:057-313-02-04-75">057-313-02-04-75</a>
+                </div>
+                <!-- Redes sociales -->
+                <div>
+                    <a class="text-light mx-2" href="" target="_blank" rel="sponsored"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="text-light mx-2" href="" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+                    <a class="text-light mx-2" href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end-header -->
+        <!-- menu -->
+    <section id="header">
+            <!-- add logo -->
+        <a href="#"><img class="logo"src="assets/img/Elstp.png" alt=""></a>
+            
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html"">Home</a></li>
+                <li><a href="compras.html">Compras</a></li>
+                <li><a class="active" href="productos.html">Productos</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a id="buscar" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search"><i class="fas fa-search"></i></a></li>
+                <li id="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>      
+    <!-- fin menu -->
+    <!-- Modal de Búsqueda -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="/buscar" method="get" class="modal-content modal-body border-0 p-0">
+            <div class="input-group mb-2">
+            <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Buscar ...">
+            <button type="submit" class="input-group-text bg-success text-light">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            </div>
+            <p><br>Escriba el producto a Buscar ...</p>
+        </form>
+        </div>
+    </div> 
+
+<!-- cuerpo-->
+<section class="bg-light">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-5 mt-5">
+                <div class="card mb-3">
+                    <img class="card-img img-fluid" src="assets/img/zapato_deportivo1.jpg">
+                </div>
+                <div class="row">
+                    <div class="col-1 align-self-center">
+                        <a href="#multi-item-example" role="button" data-bs-slide="prev">
+                            <i class="text-dark fas fa-chevron-left"></i>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                    </div>
+                    <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
+                        <div class="carousel-inner product-links-wap" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="assets/img/zapato_deportivo_02.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="assets/img/zapato_deportivo_03.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="assets/img/zapato_deportivo_04.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-1 align-self-center">
+                        <a href="#multi-item-example" role="button" data-bs-slide="next">
+                            <i class="text-dark fas fa-chevron-right"></i>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="h2">Calzado deportivo, Nike blancos...</h1>
+                        <p class="h3 py-2">$500.000</p>
+                        <p class="py-2">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-secondary"></i>
+                            <span class="list-inline-item text-dark">Rating 4.8 | 40 Comentarios</span>
+                        </p>
+
+                        <h6>Descripción:</h6> 
+                        <p>Nike blancos</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6>Color :</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted"><strong>Blanco</strong></p>
+                            </li>
+                        </ul>
+
+                        <h6>Especificacion:</h6>
+                        <ul class="list-unstyled pb-3">
+                            <li>Nike blancos</li>
+
+                        </ul>
+
+                        <form action="" method="GET">
+                            <input type="hidden" name="product-title" value="Activewear">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <ul class="list-inline pb-3">
+                                        <li class="list-inline-item">Tallas :
+                                            <input type="hidden" name="product-size" id="product-size" value="S">
+                                        </li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">30</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">40</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">50</span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-auto">
+                                    <ul class="list-inline pb-3">
+                                        <li class="list-inline-item text-right">
+                                            Cantidad
+                                            <input type="hidden" name="product-quanity" id="product-quanity" value="1">
+                                        </li>
+                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
+                                        <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-lg-6 d-grid">
+                                    <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Comprar</button>
+                                    
+                                </div>
+                                <div class="col-lg-6 d-grid">
+                                    <button class="btn btn-success">
+                                        <a href="pago.html" target="target_blank">Pagar</a>
+                                        </button>
+                                </div>
+
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                                        <!-- paginacion -->
+        <div class="row">
+            <ul class="pagination pagination-lg justify-content-end">
+                <li class="page-item">
+                    <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="productos.html">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="productos2.html">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="productos3.html">3</a>
+                </li>
+            </ul>           
+        </div>
+        
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- fin cuerpo-->    
+
+    
+
+<!-- Footer --> 
+<footer class="section-p1">
+    <div class="col">
+        <img src="assets/img/Elstp.png" class="logov1" alt="">
+        <h4>Contacto</h4>
+        <p><strong>Dirección:</strong> Local principal - Barranquilla - Colombia  </p>
+        <p><strong>Teléfono:</strong> 057-320-202-02-02  </p>
+        <p><strong>Horarios:</strong>  Lunes a Sabado, 9:00 AM - 5:00 PM </p>
+        <div class="follow">
+            <h4>Síguenos</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i> 
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+        </div>
+    </div> <!-- cierre de col -->
+
+    <div class="col">
+        <h4>Productos</h4>
+        <a href="#">Calzado para Caballero</a>
+        <a href="#">Calzado para Dama</a>
+        <a href="#">Calzado Deportivo</a>
+        <a href="#">Calzado con Tacones</a>
+        <a href="#">Sandalias</a>
+        <a href="#">Botas</a>
+    </div> <!-- cierre de col -->
+
+    <div class="col">
+        <h4>Mi Cuenta</h4>
+        <a href="#">Ingresar</a>
+        <a href="#">Carrito</a>
+        <a href="#">Mi Lista de Deseos</a>
+        <a href="#">Rastrear mi Pedido</a>
+        <a href="#">Ayuda</a>
+    </div> <!-- cierre de col -->
+
+    <div class="col install">
+        <h4>Descarga nuestra APP</h4>
+        <p>Disponible en App Store o Google Play</p>
+        <div class="row">
+            <img class="app" src="assets/img/pay/appstore.png" alt="">
+            <img class = "play" src="assets/img/pay/googleplay.png" alt="">
+        </div>    
+        <p>Pasarela de Pago Segura</p>
+        <img src="assets/img/pay/pay.png" alt="">
+    </div> <!-- cierre de col -->
+    <div class="copyright">
+        <p>Copyright &copy; 2024 - Elegant Steps | Diseñado por: Grupo TalenTech</p> 
+    </div>
+</footer>
+<!-- archivos js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/templatemo.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>   
