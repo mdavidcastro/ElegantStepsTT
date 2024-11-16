@@ -1,5 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap);
+
 @import url(menubar.css);
+
+@import url(footer.css);
+
+@import url('Paginas/Home/carousel.css');
+
+@import url(responsive.css);
+
+@import url('Paginas/Contacto/contact_page.css');
+
+@import url('Paginas/shop_page.css');
+
+@import url('Paginas/Home/home_page.css');
+
+@import url('Paginas/product_page.css');
+
+
 
 *{
     margin: 0;
@@ -42,5 +59,17 @@ p{
 body{
     width: 100%;
 }
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+
 
 

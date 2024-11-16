@@ -6,6 +6,15 @@
     padding: 20px 80px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06) ;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+    width: 180px;
+    
 } 
 #navbar{
     display: flex;
@@ -43,4 +52,14 @@
     bottom: -4px;
     left: 20px;
 
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+#buscar{
+    color:#222;
 }
